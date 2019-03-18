@@ -7,7 +7,7 @@
 {% block main %}
 <div class="card center">
     <div class="row top-info">
-        <img class="card-img-top pro_img" src="{{ url_for('static', filename='uploads/'+user.photo) }}"/>
+        <img class="card-img" src="{{ url_for('static', filename='uploads/'+user.photo) }}"/>
         <div class="col">
             <span class="blk">{{users.firstname+" "+users.lastname}}</span>
             <span class="blk">{{users.email}}</span>
